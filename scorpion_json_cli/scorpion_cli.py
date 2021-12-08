@@ -2,7 +2,6 @@ import json
 
 # class CRUD json
 class Crud_Json:
-    
     def __init__(self):
         pass
 
