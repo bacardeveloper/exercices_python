@@ -11,7 +11,9 @@ class Crud_Json:
     
     def recuperer_un_item_dans_json(self, json, id):
         for element in json:
-            ''
+            print(str(element))
+            if str(element) == 'id':
+                break 
         
 
 # fonction princpale
